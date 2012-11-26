@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Slide Show template</title>
+
+	<script type="text/javascript" src="http://uupaa-js.googlecode.com/svn/trunk/0.8/src/uupaa.js" charset="UTF-8"></script>
+	<script type="text/javascript" charset="UTF-8" src="uuslide.plug.js"></script>
+	<script type="text/javascript">
+		uu.plug.slideshow('.slideshow');
+	</script>
+
+</head>
+<body>
+	<h1>uupaa.js slideshow plugin</h1>
+
+	<h2>demo</h2>
+	<div class="slideshow">
+		<img src='http://www.publicdomainpictures.net/pictures/30000/thumb/flower-1351731588Y19.jpg' />
+		<img src='http://www.publicdomainpictures.net/pictures/30000/thumb/a-flower-for-you.jpg' />
+		<img src='http://www.publicdomainpictures.net/pictures/30000/thumb/flower-13515921896IH.jpg' />
+	</div>	
+
+	<h2>samplecode</h2>
+<pre>
+
+// Script
+
+&lt;script type="text/javascript" src="http://uupaa-js.googlecode.com/svn/trunk/0.8/src/uupaa.js" charset="UTF-8"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" charset="UTF-8" src="uuslide.plug.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+	uu.plug.slideshow('.slideshow');
+	// uu.plug.slideshow('.slideshow', {delay: 3000} );
+	// uu.plug.slideshow('.slideshow', {delay: 3000, duration: 2000 } );
+	// uu.plug.slideshow('.slideshow', {duration: 2000 } );
+&lt;/script&gt;
+
+// HTML
+
+&lt;div class="slideshow"&gt;
+	&lt;img src='http://www.publicdomainpictures.net/pictures/30000/thumb/flower-1351731588Y19.jpg' /&gt;
+	&lt;img src='http://www.publicdomainpictures.net/pictures/30000/thumb/a-flower-for-you.jpg' /&gt;
+	&lt;img src='http://www.publicdomainpictures.net/pictures/30000/thumb/flower-13515921896IH.jpg' /&gt;
+&lt;/div&gt;	
+
+</pre>
+	<h2>option</h2>
+	<dl>
+		<dt>option</dt>
+		<dd>Set to image change delay timing.<br>default is 2500(msec)</dd>
+		<dt>duration</dt>
+		<dd>Set to image fade in duration timing.<br>default is 1500(msec)</dd>
+	</dl>
+</body>
+</html>
